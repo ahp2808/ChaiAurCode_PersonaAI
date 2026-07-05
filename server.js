@@ -105,7 +105,7 @@ app.post("/api/chat", async (req, res) => {
   const channelConfig = CHANNELS[channel] || CHANNELS.chat1;
 
   const MESSAGES_DB = [{ role: "system", content: channelConfig.systemPrompt }];
-  const apiKey = process.env.GEMINI_API_KEY;
+  const apiKey = process.env.GEMINI_API_KEY || '';
   const client = new OpenAI({
     apiKey: `${apiKey}`,
     baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/",
