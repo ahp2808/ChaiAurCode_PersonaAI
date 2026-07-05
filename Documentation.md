@@ -12,6 +12,10 @@ This documentation explains how the project was built.
 * The context was set by explaining few characteristics of both personalities.
 
 ## Sample conversations demonstrating both personas
-An example of conversing with Hitesh sir:
+An example of conversing with Hitesh sir:  
+  
+![Project Screenshot](public/assets/Chat02_sc.png)  
+  
+An example of conversing with Piyush sir:  
 
-An example of conversing with Piyush sir:
+![Project Screenshot](public/assets/Chat01_sc.png)  

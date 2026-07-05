@@ -7,7 +7,7 @@ A single-page chat UI with two chat interfaces:
 Each chat keeps its own conversation history and system prompt.
 
 You can access the deployed project here:
-[PersonaAI](https://vercel.com/ahp2808s-projects/chai-aur-code-persona-ai/54a6LVcihj2haSQRvxFdGwZkQGZ5)
+[PersonaAI](https://chai-aur-code-persona-ai.vercel.app/)
 
 This project works with Gemini API. If you do not have Gemini API, change the model here: https://github.com/ahp2808/ChaiAurCode_PersonaAI/blob/fec581a99ec5306c87f36a5ab2d0df52ba0ca455/server.js#L18
 
